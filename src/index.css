@@ -57,6 +57,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+    /* grid-template-columns: auto auto auto; */
     padding: 10px;
 }
 
@@ -68,9 +69,23 @@
     margin: 20px;
 }
 
+
+/* .row5 {
+    padding-left: 25%;
+    padding-right: 25%;
+    height: 30%;
+    width: 100%;
+} */
+
 .textcenter-div {
-    text-align: center;
+    align-items: center;
+    align-content: center;
 }
+
+
+/* .col1-row6 {
+    padding-left: 31%;
+} */
 
 
 /* .vector {
@@ -83,3 +98,21 @@
     padding-top: 5%;
     background-image: url(../images/element.png);
 } */
+
+.row7 {
+    padding-top: 40%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.download {
+    width: 5%;
+    border: 1px solid blue;
+    border-radius: 25px;
+}
+
+.row8 {
+    padding-top: 40%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
