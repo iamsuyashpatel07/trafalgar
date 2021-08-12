@@ -251,7 +251,8 @@ function App() {
             <span>
               In this case, the role of the health <br />laboratory is very important to do<br />
                   a disease detection...
-            </span>
+            </span><br/>
+            <span className="flex-1"><span className="text-blue-600">Read more &ensp; -> </span></span>
           </div>
           <div class="row10-item">
             <img style={{width:"100%"}} className="rounded-t-lg" src="../images/Herbal.png" alt="searchdoctor" />
@@ -262,7 +263,8 @@ function App() {
             <br />
             <span>
               Herbal medicine is very widely used<br /> at this time because of its very good<br /> for your health...
-            </span>
+            </span><br/>
+           <span className="flex-1"><span className="text-blue-600">Read more &ensp; -> </span></span>
           </div>
           <div class="row10-item">
             <img style={{width:"100% "}} className="rounded-t-lg" src="../images/natural.png" alt="searchdoctor" /> <br />
@@ -274,7 +276,8 @@ function App() {
             <span>
               A healthy lifestyle should start from<br/> now and also for your skin health.<br/>
              There are some...
-            </span>
+            </span><br />
+            <span className="flex-1"><span className="text-blue-600">Read more &ensp; -> </span></span>
           </div>
         </div>
       </div>
@@ -314,6 +317,11 @@ function App() {
 </div>
 </center>
       </div>
+<div className="text-white">
+<div  className="final">
+Suyash Patel
+</div>
+</div>
     </>
   );
 }
