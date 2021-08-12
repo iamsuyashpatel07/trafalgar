@@ -210,9 +210,22 @@ function App() {
                </span>
           <br />
  {/*starting of button*/}
-           <div style={{paddingTop:"3%"}}>
+<div style={{paddingTop:"6%"}}>
+ <span className="flex border border-blue-600 rounded-full text-center py-3 px-3 text-blue-600" style={{width:"7.5rem"}}>
+<span className="pr-2">Download</span><img src="../images/down-arrow.png" alt="arrow" />
+
+{/* <table>
+<tr>
+<th>Download</th>
+<th><img src="../images/down-arrow.png" alt="arrow" /></th>
+</tr>
+</table> */}
+</span>
+</div>
+<br/>
+           {/* <div style={{paddingTop:"3%"}}>
              <img src="../images/downloadbtn.png" alt="arrow" /> 
-             </div>
+             </div> */}
             {/*ending of download*/}
           </span>
         <span className="float-right">
