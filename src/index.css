@@ -65,7 +65,7 @@
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 25px;
     box-shadow: 5px 10px white;
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
 }
 
@@ -115,4 +115,34 @@
     padding-top: 40%;
     padding-left: 3%;
     padding-right: 3%;
+}
+
+.row9 {
+    padding-bottom: 4%;
+}
+
+.row11 {
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-bottom: 6%;
+    color: white;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.row10 {
+    padding-bottom: 3%;
+}
+
+.row10-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-columns: auto auto auto; */
+    padding: 10px;
+}
+
+.row10-item {
+    border-radius: 25px;
+    box-shadow: 5px 10px white;
+    /* padding: 20px; */
+    margin: 20px;
 }

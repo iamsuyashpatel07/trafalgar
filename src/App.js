@@ -228,7 +228,91 @@ function App() {
          </center>
       </div>   
       <div className="row9">
-         
+         <center>
+         <span style={{ fontWeight: "700", fontSize: "36px" }}>
+          Check out our latest article
+        </span>
+        <br />
+        <center>
+          <img src="../images/rectangle.png" alt="rectangle.png" />
+        </center>
+        </center>
+      </div>
+        <div className="row10">
+ <div className="row5">
+        <div class="row10-container">
+          <div class="row10-item">
+            <img style={{width:"100% "}} className="rounded-t-lg" src="../images/disease.png" alt="searchdoctor" />
+            <span style={{ fontWeight: "700", fontSize: "36px" }}>
+              Disease detection, check <br/>
+               up in the laboratory
+            </span>
+            <br />
+            <span>
+              In this case, the role of the health <br />laboratory is very important to do<br />
+                  a disease detection...
+            </span>
+          </div>
+          <div class="row10-item">
+            <img style={{width:"100%"}} className="rounded-t-lg" src="../images/Herbal.png" alt="searchdoctor" />
+            <span style={{ fontWeight: "700", fontSize: "36px" }}>
+              Herbal medicines that are <br />
+               safe for consumption
+            </span>
+            <br />
+            <span>
+              Herbal medicine is very widely used<br /> at this time because of its very good<br /> for your health...
+            </span>
+          </div>
+          <div class="row10-item">
+            <img style={{width:"100% "}} className="rounded-t-lg" src="../images/natural.png" alt="searchdoctor" /> <br />
+            <span style={{ fontWeight: "700", fontSize: "36px" }}>
+              Natural care for healthy 
+                 <br/>facial skin
+            </span>
+            <br />
+            <span>
+              A healthy lifestyle should start from<br/> now and also for your skin health.<br/>
+             There are some...
+            </span>
+          </div>
+        </div>
+      </div>
+      <center>
+        <span className="items-center justify-center border border-blue-600 rounded-full text-center py-3 px-6 text-blue-600">
+          View all
+        </span>
+      </center>
+      <div></div>
+
+
+         </div>
+       <div className="row11">
+       <center>
+<div class="grid grid-flow-row grid-cols-4 grid-rows-">
+  <div><table><th><span className="rounded-full h-12 w-12 flex items-center justify-center bg-white text-blue-600">T</span></th>
+       <th>Trafalgar</th></table></div>
+  <div>company</div>
+  <div>Region</div>
+  <div>Help</div>
+  <div>Trafalgar provides progressive, and affordable</div>
+  <div>About</div>
+  <div>Indonesia</div>
+  <div>Help Center</div>
+  <div>affordable healthcare, accessible on</div>
+  <div>Testimonas</div>
+  <div>Singapore</div>
+  <div>Contact Support</div>
+  <div>for everyone</div>
+  <div>find a doctor</div>
+  <div>Hong Kong</div>
+  <div>Inctruction</div>
+  <div>©Trafalgar PTY LTD 2020. All rights reserved</div>
+  <div>Apps</div>
+  <div>Canda</div>
+  <div>How its work</div>
+</div>
+</center>
       </div>
     </>
   );
